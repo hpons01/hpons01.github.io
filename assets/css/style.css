@@ -43,14 +43,18 @@ main {
 
 main a {
     color: #0056b3;
-    text-decoration: none;
-    border-bottom: 1px dotted #0056b3;
-    transition: all 0.2s ease;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    transition: color 0.2s ease;
+}
+
+main a:visited {
+    color: #0056b3;
 }
 
 main a:hover {
     color: #003d82;
-    border-bottom: 1px solid #003d82;
 }
 
 .actions {
@@ -61,28 +65,42 @@ main a:hover {
 
 .btn {
     display: inline-block;
-    padding: 0.75rem 1.5rem;
+    padding: 0.6rem 1.4rem;
     background: #0056b3;
     color: #ffffff;
     border: 2px solid #0056b3;
-    border-radius: 6px;
+    border-radius: 999px;
     text-decoration: none;
     font-weight: 600;
+    letter-spacing: 0.03em;
     transition: all 0.2s ease;
-    border-bottom: none;
+}
+
+.btn:visited {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .btn:hover {
     background: #003d82;
     border-color: #003d82;
     color: #ffffff;
-    border-bottom: none;
+    text-decoration: none;
     transform: translateY(-2px);
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 86, 179, 0.25);
+}
+
+.btn:focus-visible {
+    outline: 2px solid #0056b3;
+    outline-offset: 3px;
 }
 
 .btn-outline {
     background: transparent;
+    color: #0056b3;
+}
+
+.btn-outline:visited {
     color: #0056b3;
 }
 
