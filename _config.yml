@@ -15,3 +15,6 @@ collections:
   posts:
     output: true
     permalink: /blog/:year/:month/:day/:title/
+  writeups:
+    output: true
+    permalink: /writeups/:year/:month/:day/:title/

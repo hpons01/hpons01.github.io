@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Writeups
-permalink: /writeups/
+title: Blog
+permalink: /blog/
 ---
 
-# Writeups
+# Blog
 
-{% for post in site.writeups %}
+{% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
