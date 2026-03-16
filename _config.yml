@@ -1,3 +1,17 @@
-theme: jekyll-theme-minimal
 title: Pentest Road
 description: Stuff are coming..
+author: Hugo Pons
+url: https://hpons01.github.io
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
