@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Starting-the-Journey"
+title: "Starting the Journey"
 date: 2026-03-16
 categories: JOURNEY BEGINNING
 ---
@@ -32,8 +32,8 @@ The main focus will be Hack The Box (HTB) basic courses along with some real cha
 To keep my motivation and be able to follow my plan easily, I (and mostly Claude) created a small NextJS dashboard.
 The goal is to have in the same place the current TODOs, my streak, which phase I'm in & the current progression.
 I'm pretty happy with this tool, it looks great and will be super helpful to keep my motivation high.
-![Screenshot of NextJS dashboard](/assets/img/blog1/main.png)
-![Screenshot of Hardware dashboard](/assets/img/blog1/hardware.png)
+<img src="/assets/img/blog1/main.png" alt="Screenshot of NextJS dashboard" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" />
+<img src="/assets/img/blog1/hardware.png" alt="Screenshot of Hardware dashboard" style="max-width: 100%; height: auto; display: block;" />
 (The dashboard is in french but you can see here the landing page daily todolist & the hardware to buy / useful books).
 This blog is also one of the tool I'm using to keep myself motivated. I've learned the importance of writeups whenever I'll do big challenges. Posting them online will be helpful to have a portfolio. Having my journey documented feels great as well.
 
